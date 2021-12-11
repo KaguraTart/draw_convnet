@@ -38,7 +38,7 @@ from matplotlib.lines import Line2D
 from matplotlib.patches import Rectangle
 from matplotlib.patches import Circle
 
-NumDots = 4
+NumDots = 1
 NumConvMax = 8
 NumFcMax = 20
 White = 1.
@@ -245,5 +245,5 @@ if __name__ == '__main__':
 
     fig_dir = './'
     fig_ext = '.png'
-    fig.savefig(os.path.join(fig_dir, 'convnet_fig' + fig_ext),
+    fig.savefig(os.path.join(fig_dir, 'convnet_fig2' + fig_ext),
                 bbox_inches='tight', pad_inches=0)
